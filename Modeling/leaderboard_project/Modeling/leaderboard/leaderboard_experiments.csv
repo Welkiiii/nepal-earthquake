@@ -1,5 +1,0 @@
-Candidate,Method,Validation Micro F1,Official Score,Status
-Existing official submission,"LightGBM + One-Hot, 250-tree full-data fit",,0.744,Uploaded
-A,"LightGBM + One-Hot, 400 trees",0.7473954836,,Ready to upload
-B,80% LightGBM + 20% Logistic probability blend,0.7490263042,,Ready to upload
-C,"Candidate B + Grade1×0.95, Grade3×1.07 score adjustment",0.7495635157,,Experimental

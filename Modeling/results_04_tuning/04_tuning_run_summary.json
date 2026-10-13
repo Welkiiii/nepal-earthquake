@@ -1,0 +1,55 @@
+{
+  "selected_validation_solution": "Blend (CatBoost weight=0.60)",
+  "selected_catboost_weight": 0.6000000000000001,
+  "selected_validation_metrics": {
+    "Model": "Blend (CatBoost weight=0.60)",
+    "Micro F1": 0.7558949367817195,
+    "Macro F1": 0.7075164491491828,
+    "Grade 3 Recall": 0.6492203623022242,
+    "Ordinal MAE": 0.2472324015272155,
+    "QWK": 0.6324760741708908,
+    "CER": 0.003127338308934978,
+    "Train seconds": NaN
+  },
+  "best_lgbm": {
+    "Model": "LGBM_deeper",
+    "Micro F1": 0.7515972448725082,
+    "Macro F1": 0.7028835392693683,
+    "Grade 3 Recall": 0.6454941527172667,
+    "Ordinal MAE": 0.25193300205291536,
+    "QWK": 0.6261640404097295,
+    "CER": 0.0035302469254235337,
+    "Train seconds": 78.77122831344604,
+    "Best iteration": 1332,
+    "params": {
+      "n_estimators": 1400,
+      "learning_rate": 0.035,
+      "num_leaves": 127,
+      "min_child_samples": 24,
+      "subsample": 0.9,
+      "colsample_bytree": 0.95,
+      "reg_lambda": 2.0,
+      "reg_alpha": 0.1
+    }
+  },
+  "best_catboost": {
+    "Model": "CatBoost_depth9",
+    "Micro F1": 0.7528443429711632,
+    "Macro F1": 0.7045427844080384,
+    "Grade 3 Recall": 0.645952763127723,
+    "Ordinal MAE": 0.2503405537115558,
+    "QWK": 0.6279948387641028,
+    "CER": 0.0031848966827190575,
+    "Train seconds": 1717.6607551574707,
+    "Best iteration": 1597,
+    "params": {
+      "iterations": 1600,
+      "depth": 9,
+      "learning_rate": 0.045,
+      "l2_leaf_reg": 7.0,
+      "random_strength": 0.8,
+      "bagging_temperature": 0.5
+    }
+  },
+  "submission_path": "c:\\Users\\王柄尧\\OneDrive\\桌面\\group_project\\group_project\\Modeling\\results_04_tuning\\04_submission_tuned_lgbm_catboost.csv"
+}
