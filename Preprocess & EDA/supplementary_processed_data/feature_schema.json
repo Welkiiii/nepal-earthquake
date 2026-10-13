@@ -1,0 +1,34 @@
+{
+  "building_id": "identifier_only_drop_before_model_fit",
+  "target": "damage_grade",
+  "categorical_columns": [
+    "age_group",
+    "foundation_type",
+    "geo_level_1_id",
+    "geo_level_2_id",
+    "geo_level_3_id",
+    "ground_floor_type",
+    "land_surface_condition",
+    "legal_ownership_status",
+    "other_floor_type",
+    "plan_configuration",
+    "position",
+    "rc_category",
+    "roof_type"
+  ],
+  "new_supplement_features": [
+    "secondary_use_count",
+    "area_per_family",
+    "rc_category",
+    "age_group"
+  ],
+  "features_inherited_from_notebook_01": [
+    "age_is_995",
+    "age_capped_100",
+    "material_count",
+    "height_per_floor",
+    "families_per_floor",
+    "has_reinforced_concrete"
+  ],
+  "geography_eda_target_statistics_are_model_features": false
+}

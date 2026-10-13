@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+geo_level_1_id,0.5340339499456875
+geo_level_2_id,0.1503288042642906
+age,0.1391677517040201
+foundation_type,0.1342556037484288
+has_superstructure_mud_mortar_stone,0.1080159037066816
+other_floor_type,0.0659870786022624
+ground_floor_type,0.0615516683662644
+geo_level_3_id,0.0523372783516724
+roof_type,0.0457568277886921
+count_floors_pre_eq,0.0441538887145728
+has_superstructure_cement_mortar_brick,0.0393550643706977
+area_percentage,0.0366296318579497
+height_per_floor,0.0290355043962369
+height_percentage,0.0289256937151097
+material_count,0.0261336382924263
