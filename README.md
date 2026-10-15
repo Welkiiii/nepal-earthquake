@@ -26,6 +26,7 @@ group_project/
 │   ├── raw_data/
 │   ├── processed_data/
 │   └── supplementary_processed_data/
+│   ├── figures/
 │
 ├── Modeling/
 │   ├── 03_Model_Training_Evaluation.ipynb
@@ -35,8 +36,6 @@ group_project/
 │   ├── results/
 │   └── results_04_tuning/
 │
-├── presentation/
-├── report/
 └── README.md
 ```
 
