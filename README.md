@@ -1,6 +1,6 @@
 # Nepal Earthquake Damage Prediction
 
-Course project for predicting building damage severity in the DrivenData **Richter's Predictor: Modeling Earthquake Damage** competition.
+NTU2026-FINTECH-MH6810 Course project for predicting building damage severity in the DrivenData **Richter's Predictor: Modeling Earthquake Damage** competition.
 
 DrivenData: Richter's Predictor — Modeling Earthquake Damage
 
